@@ -5,3 +5,22 @@
 **Test Technique used:**  Equivalence Partitioning, Boundary Value Analysis
 
 ---
+## 1. Basic Operations
+| TC ID | Test Case Title | Steps | Expected Result | Status |
+|---|---|---|---|---|
+| TC_001 | Addition | Enter 5+3= | Result: 8 | Not Run |
+| TC_002 | Subtraction | Enter 10-4= |Result: 6 | Not Run |
+| TC_003 | Multiplication | Enter 6*7= | Result: 42 | Not Run |
+| TC_004 | Division | Enter 20/4= | Result: 5 | Not Run |
+
+---
+## 2. Edge Cases
+| TC ID | Test Case Title | Steps | Expected Result | Status |
+|---|---|---|---|---|
+| TC_005 | Divide by zero | Enter 10/0= | Error message displayed eg. "Cannot divide by zero" | Not Run |
+| TC_006 | Decimal result | Enter 10/3= | Result: 3.3333... (rounded appropriately) | Not Run |
+| TC_007 | Negative result | Enter 3-10= | Result: -7 | Not Run |
+| TC_008 | Multiply by zero | Enter 999*0= | Result: 0 | Not Run |
+| TC_009 | Multiply by negative | Enter 5*-3= | Result: -15 | Not Run |
+
+|---|---|---|---|---|
