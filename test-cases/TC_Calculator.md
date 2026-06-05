@@ -23,4 +23,13 @@
 | TC_008 | Multiply by zero | Enter 999*0= | Result: 0 | Not Run |
 | TC_009 | Multiply by negative | Enter 5*-3= | Result: -15 | Not Run |
 
+---
+## 3. Boundary Value Analysis
+| TC ID | Test Case Title | Steps | Expected Result | Status |
 |---|---|---|---|---|
+| TC_010 | Very large numbers | Enter 999999999+1= | Result handled without crash or overflow error | Not Run |
+| TC_011 | Very small decimal | Enter 0.0001+0.0001= | Result: 0.0002 (no rounding error) | Not Run |
+| TC_012 | zero+zero | Enter 0+0= | Result: 0 | Not Run |
+| TC_013 | Negative+Negative | Enter -5+-5= | Result: -10 | Not Run |
+
+---
