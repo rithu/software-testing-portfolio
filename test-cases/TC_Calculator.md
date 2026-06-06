@@ -33,3 +33,7 @@
 | TC_013 | Negative+Negative | Enter -5+-5= | Result: -10 | Not Run |
 
 ---
+
+## 4. UI & Functional Checks
+| TC ID | Test Case Title | Steps | Expected Result | Status |
+|---|---|---|---|---|
