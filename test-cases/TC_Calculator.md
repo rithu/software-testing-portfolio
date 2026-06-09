@@ -37,3 +37,10 @@
 ## 4. UI & Functional Checks
 | TC ID | Test Case Title | Steps | Expected Result | Status |
 |---|---|---|---|---|
+| TC_014 | Clear button | Enter any number, press C | Display resets to 0 | Not Run |
+| TC_015 | Consecutive operations | Enter 2+3=then*4= | Result: 20 | Not Run |
+| TC_016 | Repeated equals | Enter 5+3=then press = again | Result rpeats last operation (shows 11) | Not Run |
+| TC_017 | Display limit | Enter a very long number eg. 123456789012345 | Display adjusts without breaking layout | Not Run |
+
+---
+
